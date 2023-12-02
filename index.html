@@ -1,0 +1,38 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Algebra Learning App</title>
+</head>
+<body>
+    <h1>Matrix Operations</h1>
+    <form action="/matrix_operations" method="post">
+        <h2>Matrix A</h2>
+        <input type="text" name="A00" value="1"> <input type="text" name="A01" value="2"> <input type="text" name="A02" value="3"><br>
+        <input type="text" name="A10" value="4"> <input type="text" name="A11" value="5"> <input type="text" name="A12" value="6"><br>
+        <input type="text" name="A20" value="7"> <input type="text" name="A21" value="8"> <input type="text" name="A22" value="9"><br>
+
+        <h2>Matrix B</h2>
+        <input type="text" name="B00" value="9"> <input type="text" name="B01" value="8"> <input type="text" name="B02" value="7"><br>
+        <input type="text" name="B10" value="6"> <input type="text" name="B11" value="5"> <input type="text" name="B12" value="4"><br>
+        <input type="text" name="B20" value="3"> <input type="text" name="B21" value="2"> <input type="text" name="B22" value="1"><br>
+
+        <input type="submit" value="Calculate">
+    
+        <h1>Eigenvalues and Eigenvectors</h1>
+        
+    </form>
+    <form action="/eigenvalues" method="post">
+        <!-- ユーザーが行列を入力するためのフォームを追加 -->
+        <input type="text" name="A00" value="1"> <input type="text" name="A01" value="2"> <input type="text" name="A02" value="3"><br>
+        <input type="text" name="A10" value="4"> <input type="text" name="A11" value="5"> <input type="text" name="A12" value="6"><br>
+        <input type="text" name="A20" value="7"> <input type="text" name="A21" value="8"> <input type="text" name="A22" value="9"><br>
+        <input type="submit" value="Calculate Eigenvalues">
+    </form>
+ 
+
+</body>
+</html>
